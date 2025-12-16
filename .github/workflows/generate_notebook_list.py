@@ -164,7 +164,7 @@ def extract_frontmatter(notebook_path):
 
 def myst_url_sanitation(url):
     # reverse engineering the myst url sanitation
-    clean_url = url.replace("_-_","-").replace("_", "-").replace(" ", "-").replace("..", "").replace(":", "").replace("'", "").replace('"', "").lower()
+    clean_url = url.replace("_-_","-").replace("_", "-").replace(" ", "-").replace("..", "").replace(":", "").replace("'", "").replace('"', "").lower().lstrip('-0123456789')
     parts = clean_url.split("/")
     cut_url = "/".join(parts[0:-1] + [parts[-1][:50]])
     return cut_url
