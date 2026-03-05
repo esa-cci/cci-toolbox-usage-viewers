@@ -396,6 +396,18 @@
     "gitpuller": "https://workspace.climate.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/esa-cci/esa-climate-toolbox&urlpath=lab/tree/esa-climate-toolbox/notebooks/Accessing_Data/6-ECT_Kerchunk_Access.ipynb&branch=main"
   },
   {
+    "title": "Fire Access",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_esa-cci_esa-climate-toolbox_notebooks_user_examples_Fire_Access_preview.png",
+    "link": "external-notebooks/esa-cci/esa-climate-toolbox/notebooks/user-examples/fire-access",
+    "org": "esa-cci",
+    "repo": "esa-climate-toolbox",
+    "source": "submodule",
+    "path": "external_notebooks/esa-cci/esa-climate-toolbox/notebooks/user_examples/Fire_Access.ipynb",
+    "gitpuller": "https://workspace.climate.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/esa-cci/esa-climate-toolbox&urlpath=lab/tree/esa-climate-toolbox/notebooks/user_examples/Fire_Access.ipynb&branch=main"
+  },
+  {
     "title": "**_Access and Plot Northern Hemisphere Sea Ice from Zarr Data Storage_**",
     "description": "",
     "metadata": {},
@@ -406,6 +418,18 @@
     "source": "submodule",
     "path": "external_notebooks/esa-cci/esa-climate-toolbox/notebooks/user_examples/CCI-SeaIce-Animation.ipynb",
     "gitpuller": "https://workspace.climate.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/esa-cci/esa-climate-toolbox&urlpath=lab/tree/esa-climate-toolbox/notebooks/user_examples/CCI-SeaIce-Animation.ipynb&branch=main"
+  },
+  {
+    "title": "HRLC Access",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_esa-cci_esa-climate-toolbox_notebooks_user_examples_HRLC_Access_preview.png",
+    "link": "external-notebooks/esa-cci/esa-climate-toolbox/notebooks/user-examples/hrlc-access",
+    "org": "esa-cci",
+    "repo": "esa-climate-toolbox",
+    "source": "submodule",
+    "path": "external_notebooks/esa-cci/esa-climate-toolbox/notebooks/user_examples/HRLC_Access.ipynb",
+    "gitpuller": "https://workspace.climate.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/esa-cci/esa-climate-toolbox&urlpath=lab/tree/esa-climate-toolbox/notebooks/user_examples/HRLC_Access.ipynb&branch=main"
   },
   {
     "title": "4-ECT Filtering Data",

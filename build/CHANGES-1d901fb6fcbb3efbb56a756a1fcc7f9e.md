@@ -1,4 +1,23 @@
-## Changes in 1.5.2 (in development)
+## Changes in 1.6
+
+### Operations
+* Added operation `temporal_alignment` to resample one dataset to the temporal extent of another
+  dataset to facilitate combining the datasets
+* Added operation `plot_categorical` to plot categorical data.
+
+### Enhancements
+* Added module `colorschemes.py` for managing combinations of color maps, value ranges and labels.
+  There are predefined schemes for 
+  * `land_cover_cci`
+  * `land_cover_fire_cci` (for land cover data in FIRE datasets)
+  * `highres_land_cover_cci` (for the high resolution land cover data)
+  The module introduces a new abstract class `ColorScheme` and one implementing class 
+  `CategoricalColorScheme`. Also, there is a class `ColorSchemeRegistry` and a global
+  variable `COLOR_SCHEME_REGISTRY` to obtain all registered color schemes. Users may also
+  register their own color schemes.
+* The `indexers` parameter of operations `plot`, `plot_map`, `plot_contour`, `plot_line`,
+  `plot_categorical`, `plot_scatter`, and `plot_hist` allows to pass slices.
+* Ensure Compatibility with Python 3.14
 
 ## Changes in 1.5.1
 

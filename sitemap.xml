@@ -119,6 +119,12 @@
     <loc>http://localhost:3000/external-notebooks/esa-cci/esa-climate-toolbox/notebooks/user-examples/cci-seaice-animation</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/external-notebooks/esa-cci/esa-climate-toolbox/notebooks/user-examples/fire-access</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/external-notebooks/esa-cci/esa-climate-toolbox/notebooks/user-examples/hrlc-access</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/external-notebooks/esa-cci/esa-climate-toolbox/notebooks/user-examples/readme</loc>
   </url>
   <url>
